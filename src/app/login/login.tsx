@@ -64,7 +64,7 @@ class Login extends React.Component<Props, State> {
     const { username, password, error } = this.state;
 
     return (
-      <div className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden bg-scroll bg-[url('/images/background.jpg')] bg-cover">
+      <div className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden bg-scroll bg-[url('/images/Login background.jpg')] bg-cover">
         <div className="w-full p-6 bg-white rounded-md shadow-md lg:max-w-xl">
           <h1 className="text-3xl font-bold text-center text-gray-700"><img src="/images/ushangaLogo.png" alt="Your Logo" className="mx-auto h-12 w-auto" />
 </h1>
